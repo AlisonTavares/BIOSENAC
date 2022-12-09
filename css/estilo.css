@@ -1,0 +1,164 @@
+
+
+
+
+
+
+
+.form2 {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border: rgb(206, 25, 25);
+    border-radius: 2%;
+
+
+}
+.map{
+    
+    width: auto;
+    height: auto;
+}
+
+
+body{line-height:25px;font-size:16px;}
+.menuSite{background-color:#000;background-color:rgba(0,0,0,0.3);box-shadow:0px 0px 0px transparent;-o-box-shadow:0px 0px 0px transparent;-moz-box-shadow:0px 0px 0px transparent;-webkit-box-shadow:0px 0px 0px transparent;}
+.home{width:100%;background-image:url('../img/picjumbo.com_HNCK1218.png');background-repeat:no-repeat;background-position:center;background-size:cover;}
+.logo{margin-left:1em;}
+.side-nav li{padding:0;}
+.tituloPg1{color:#ffffff;text-align:center;margin-top:3rem;padding:0 15px;font-size:4em;}
+.sobre{height:100%;background-color:#002b36;}
+.tituloSobre,.tituloHabil{margin:0px;padding-top:75px;color:#242526;text-align:center;color:#fff;}
+.linePerfil{padding:1em;}
+.perfil{height:550px;margin:0 auto;}
+.perfil p{color:#fff;}
+.redesSociais{color:#fff;}
+.parallax-container{height: 300px;}
+.servicos{  height:100%;background-color:#006882;}
+.cardHabil{width:100%;height: 100%;}
+.cardHabil h5,p{color:#ffffff;}
+.img-center{display: block;margin-left: auto;margin-right: auto;}
+.portfolio{background-color: #277082;height: 100%;}
+.cardHabil,.cardPort{margin-top:4em;}
+footer.page-footer {margin-top: 0px;padding-top: 20px;background-color: #002b36;}
+.mg1{margin-top: 0.5em;}
+.strike {display: block;text-align: center; overflow: hidden;white-space: nowrap;color: #FFFFFF;padding: 60px 50px 50px 50px;margin-top:64px;}
+.strike > span {position: relative;display: inline-block;}
+.strike > span:before,
+.strike > span:after {content: "";position: absolute;top: 50%;width: 9999px;height: 1px;background: #FFFFFF;}
+.strike > span:before {right: 100%;margin-right: 15px;}
+.strike > span:after {left: 100%;margin-left: 15px;}
+.parallax-container{height:300px;}
+.servicos{height:100%;background-color:#006882;}
+.cardHabil{width:100%;height:100%;}
+.cardHabil h5,p{color:#ffffff;}
+.img-center{display:block;margin-left:auto;margin-right:auto;}
+.portfolio{background-color:#277082;height:100%;}
+.cardHabil,.cardPort{margin-top:1em;}
+footer.page-footer{margin-top:0px;padding-top:20px;background-color:#002b36;}
+.mg1{margin-top:0.5em;}
+.drag-target {width: 0px;}
+
+/* caixa de contato */
+
+.contato
+{height: 100%;background-color: rgb(4, 4, 4);background-repeat:no-repeat;background-position:center;background-size:cover;}
+div.input-field input[type=text]:focus {border-bottom: 1px solid #f0eded;box-shadow: 0 1px 0 0 #000;}
+div.input-field input[type=email]:focus{border-bottom: 1px solid #fbf8f8;box-shadow: 0 1px 0 0 #000;}
+#textarea1:focus{border-bottom: 1px solid #000000;box-shadow: 0 1px 0 0 #000;}
+
+/* carrossel */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* final carrossel */
+
+            
+

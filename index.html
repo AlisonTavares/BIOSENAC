@@ -1,0 +1,423 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Materialize CSS </title>
+<link rel="stylesheet" href="css/estilo.css">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+
+    <!-- inicio do Site -->
+    <section id="home" class="home">
+        
+        <header>
+            <!-- inicio do slider -->
+
+
+
+            <div class="navbar-fixed">
+                <nav class="menuSite">
+                    <div class="container-fluid">
+                        <a href="index.html#home" class="brand-logo logo ancora">Alison Tavares</a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a class="ancora" href="index.html#sobre">QUEM SOU EU</a></li>
+                            <li><a class="ancora" href="index.html#servicos">SERVIÇOS</a></li>
+                            <li><a class="ancora" href="index.html#portfolio">PORTFÓLIO</a></li>
+                            <li><a  class="ancora" href="index.html#contato">CONTATO</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a  class="ancora" href="index.html#sobre">QUEM SOU EU</a></li>
+                            <li><a  class="ancora" href="index.html#servicos">SERVIÇOS</a></li>
+                            <li><a  class="ancora" href="index.html#portfolio">PORTFÓLIO</a></li>
+                            <li><a  class="ancora" href="index.html#contato">CONTATO</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="row">
+            <div class="carousel carousel-slider center">
+                <div class="carousel-fixed-item center">
+                  <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                </div>
+                <div class="carousel-item red white-text" href="#one!">
+                  <h2>First Panel</h2>
+                  <p class="white-text">This is your first panel</p>
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                  <h2>Second Panel</h2>
+                  <p class="white-text">This is your second panel</p>
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                  <h2>Third Panel</h2>
+                  <p class="white-text">This is your third panel</p>
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                  <h2>Fourth Panel</h2>
+                  <p class="white-text">This is your fourth panel</p>
+                </div>
+              </div>
+        </div>
+        
+        <!-- sessão sobre e textos -->
+    </section>
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="row">
+                <p id="data"></p>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l12 strike">
+                <span>
+                  <h4>QUEM SOU EU</h4>
+                </span>
+              </div>
+            </div>
+            <div class="row linePerfil">
+                <div class="col s12 m6 l6 perfil valign-wrapper">
+                    <img class="responsive-img circle perfilImg valign" src="img/John_Doe.jpg" alt="Imagem de Perfil" title="Imagem de Perfil">
+                </div>
+                <div class="col s12 m6 l6 perfil valign-wrapper">
+                    <p class="paragrafo valign">Designer Gráfico, estudande de javascript</p>
+                </div>
+            </div>
+            <div class="row linePerfil">
+                <div class="col s3 m3 l3 center-align">
+                    <a class="grey-text text-lighten-3" href="#"><i class="fa fa-google-plus fa-2x" title="Ícone do Google Plus" alt="Ícone do Google Plus"></i></a>
+                </div>
+                <div class="col s3 m3 l3 center-align">
+                    <a class="grey-text text-lighten-3" href="#"><i class="fa fa-github fa-2x" title="Ícone do Github" alt="Ícone do Github"></i></a>
+                </div>
+                <div class="col s3 m3 l3 center-align">
+                    <a class="grey-text text-lighten-3" href="#"><i class="fa fa-facebook-official fa-2x" alt="Ícone do Facebook" title="Ícone do Facebook"></i></a>
+                </div>
+                <div class="col s3 m3 l3 center-align">
+                    <a class="grey-text text-lighten-3" href="#"><i class="fa fa-linkedin-square fa-2x" alt="Ícone do LinkeDin" title="Ícone do LinkeDin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="parallax-container">
+        
+      <div class="parallax"><img src="./img/04.jpg" alt="Imagem em preto e branco com espelhamento." title="Imagem em preto e branco com espelhamento.">
+               
+        </div>
+    </div>
+    
+       <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="./img/01.png" style="width:100%">
+    <div class="text">Imagem 01</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./img/02.jpg" style="width:100%">
+    <div class="text">Imagem 02</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="./img/03.jpg" style="width:100%">
+    <div class="text">Imagem 03</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+        
+    </div>
+
+   
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12 strike">
+                <span>
+                  <h4>O QUE EU FAÇO</h4>
+                </span>
+              </div>
+            </div>
+            <!-- card 01 -->
+            <div class="row conteudo-servicos">
+                <div class="col s12 m3 l3 valign-wrapper">
+                    <div class="cardHabil valign">
+                        <img class="responsive-img img-center" src="img/monitor.png" width="128" alt="Ícone de Web Design" title="Ícone de Web Design"/>
+                        <h5 class="center-align">WEB DESIGN</h5>
+                        <p class="center-align">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <!-- card 02 -->
+                </div>
+                <div class="col s12 m3 l3">
+                    <div class="cardHabil">
+                        <img class="responsive-img img-center" src="img/screen.png" width="128" alt="Ícone de Development" title="Ícone de Development"/>
+                        <h5 class="center-align">DEVELOPMENT</h5>
+                        <p class="center-align">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                </div>
+                <!-- card 03 -->
+                <div class="col s12 m3 l3">
+                    <div class="cardHabil">
+                        <img class="responsive-img img-center" src="img/squares.png" width="128" alt="Ícone do Graphic Design" title="Ícone do Graphic Design"/>
+                        <h5 class="center-align">GRAPHIC DESIGN</h5>
+                        <p class="center-align">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                </div>
+
+                <!-- final dos cards -->
+                
+                <div class="col s12 m3 l3">
+                    <div class="cardHabil">
+                        <img class="responsive-img img-center" src="img/web.png" width="128" alt="Ícone do UI/UX" title="Ícone do UI/UX"/>
+                        <h5 class="center-align">UI / UX</h5>
+                        <p class="center-align">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- inicio do portifólio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12 strike">
+                 	<span>
+                        <h4>PORTFOLIO  </h4>
+                    </span>
+                </div>
+            </div>
+            <!-- final do portifólio -->
+
+            <!-- card portifólio 01 -->
+
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card cardPort">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="img/absurdoburger.jpg" alt="Imagem do site Absurdo Burger" title="Imagem do site Absurdo Burger">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">This is a link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- card portifólio 02 -->
+                 
+                <div class="col s12 m4 l4">
+                    <div class="card cardPort">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="img/adbeus.png" alt="Imagem do site AdBeus" title="Imagem do site AdBeus">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">This is a link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- card portifólio 03 -->
+                <div class="col s12 m4 l4">
+                    <div class="card cardPort">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="img/caliber.png" alt="Imagem do site Caliber" title="Imagem do site Caliber">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">This is a link</a></p>
+                        </div>
+                         <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- card portifólio 04 -->
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card cardPort">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="img/danielangel.png" alt="Imagem do site Daniel Angel" title="Imagem do site Daniel Angel">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">This is a link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+                 
+                <!-- card portifólio 05 -->
+
+                <div class="col s12 m4 l4">
+                    <div class="card cardPort">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="img/emerald.jpg" alt="Imagem do site Emerald" title="Imagem do site Emerald">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">This is a link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card portifólio 06 -->
+                <div class="col s12 m4 l4">
+                    <div class="card cardPort">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="img/kenyaapps.jpg" alt="Imagem do site Kenya Apps" title="Imagem do site Kenya Apps">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">This is a link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- final dos cards portifólio -->
+    <!-- inicio da barra de contatos -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12 strike">
+                 	<span>
+                        <h4>CONTATO</h4>
+                    </span>
+                </div>
+            </div>
+
+            <script>
+              function Enviar() {
+  
+                  var nome = document.getElementById("nomeid");
+
+                              
+                  if (nome.value != "") {
+                      alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+                  }
+              
+              }
+          </script>
+
+            <div class="row">
+                <div class="col s12 m12 l6">
+
+                  <div class="form2">
+
+                    <fieldset>
+                    
+                      <form name="form2" action="https://formsubmit.co/290d60c0ba284f1ee9c871cb5b40e0e5" method="POST">
+
+                        <div class="res"></div>
+                        <label for="name">Nome completo:</label>
+                        <input type="text" id="inputNome" name="name" placeholder="Informe seu nome" maxlength="50" minlength="3">
+                        <span></span>
+
+                        <label for="email">Email:</label>
+                        <input type="text" name="inputEmail" id="email" placeholder="Exemplo: usuario@dominio.com" maxlength="50">
+                        <span></span>
+
+                        <label for="tel">Telefone:</label>
+                        <input type="tel" name="inputTel" id="tel" placeholder="Exemplo: 8100000000" maxlength="11"><span></span>
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="textAreaMensagem" cols="30" rows="10"></textarea>
+                        <span></span>
+
+                        <div class="row justify-content-center">
+                                <button type="submit" id="enviardados" onclick="validar()">Enviar</button>
+                                <button type="reset" id="reset">Limpar</button>
+                        </div>
+
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5502/index.html">
+
+                    </fieldset>
+                    
+                    
+                    
+                    </div>
+                </div>
+                <div class="col s12 m12 l6">
+
+                  <div class="map">
+                  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.496374006865!2d-34.892419685221064!3d-7.9475464942754686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1643d37c9b13%3A0x6f412fcc8907019e!2sSENAC%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1666103029317!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- inicio do rodapé -->
+
+    <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">AlisonTavares</h5>
+                <p class="grey-text text-lighten-4">Front-end programmer.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Medias</h5>
+                <ul>
+                  <li class="mg1"><a class="grey-text text-lighten-3" href="#!"><em class="fa fa-google-plus fa-2x"></em> AlisonTavares</a></li>
+                  <li class="mg1"><a class="grey-text text-lighten-3" href="#!"><em class="fa fa-github fa-2x"></em> /AlisonTavares</a></li>
+                  <li class="mg1"><a class="grey-text text-lighten-3" href="#!"><em class="fa fa-facebook-official fa-2x"></em> /AlisonTavares</a></li>
+                  <li class="mg1"><a class="grey-text text-lighten-3" href="#!"><em class="fa fa-linkedin-square fa-2x"></em> /AlisonTavares</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+        </footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/init.js"></script>
+</body>
+</html>
